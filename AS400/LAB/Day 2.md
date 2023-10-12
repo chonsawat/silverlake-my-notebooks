@@ -155,3 +155,28 @@ File Type
 File Addition
 - `BLANK`
 - `A` - เพิ่มข้อมูลได้
+
+___
+
+# Conclusion
+```
+ Columns . . . :    1 108                                      Browse                                         STHDVLNSAL/QLNSSRCDDS 
+ SEU==>                                                                                                                    LNTEST02 
+ FMT PF .....A..........T.Name++++++RLen++TDpB......Functions+++++++++++++++++++++++++++ ...+... 9 ...+... 0 ...+...                
+        *************** Beginning of data ***************************************************************************************   
+0001.00                                             REF(LNMAST)                                                          231011     
+0002.00                 R RLNTEST02                                                                                      231012     
+0003.00      A            LNNO           5S 0       COLHDG('LOANS NO ACCOUNT')                                           231011     
+0004.00      A            LNNAME        10A         TEXT('NAME OF ACCOUNT')                                              231011     
+0005.00      A            LNADDR       200A                                                                              231011     
+0006.00      A            LNLNS         19S 0                                                                            231011     
+0007.00      A            PRATE         19S 0                                                                            231011     
+0008.00      A            LNSOM        200A                                                                              231011     
+0009.00      A            ACCTN     R               REFFLD(ACCTNO)                                                       231011     
+0010.00                   TYPE      R                                                                                    231011     
+0011.00                   LNPWF     R               REFFLD(LNPWFC LNPRWC)                                                231011     
+0012.00                   LNPWFC    R               REFFLD(LNPWFC LNPRWC)                                                231011     
+0013.00                                                                                                                  231011     
+        ****************** End of data ******************************************************************************************   
+                                                                                                                                    
+```
